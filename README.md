@@ -14,7 +14,7 @@
 [![npm version](https://img.shields.io/npm/v/@cdklabs/generative-ai-cdk-constructs)](https://www.npmjs.com/package/@cdklabs/generative-ai-cdk-constructs)
 [![NuGet Version](https://img.shields.io/nuget/v/Cdklabs.GenerativeAiCdkConstructs)](https://nuget.info/packages/Cdklabs.GenerativeAiCdkConstructs)
 [![Maven Central Version](https://img.shields.io/maven-central/v/io.github.cdklabs/generative-ai-cdk-constructs)](https://central.sonatype.com/artifact/io.github.cdklabs/generative-ai-cdk-constructs)
-[![Go Version](https://img.shields.io/github/v/tag/awslabs/generative-ai-cdk-constructs?label=go&color=orange)](https://pkg.go.dev/github.com/cdklabs/generative-ai-cdk-constructs-go/generative-ai-cdk-constructs)
+[![Go Version](https://img.shields.io/github/v/tag/awslabs/generative-ai-cdk-constructs?label=go&color=orange)](https://pkg.go.dev/github.com/cdklabs/generative-ai-cdk-constructs-go/generativeaicdkconstructs)
 
 [![Terraform Amazon Bedrock Module](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&label=bedrock%20module)](https://registry.terraform.io/modules/aws-ia/bedrock/aws/latest)
 [![Terraform Amazon OpenSearch Serverless Module](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&label=opensearchserverless%20module)](https://registry.terraform.io/modules/aws-ia/opensearch-serverless/aws/latest)
@@ -100,9 +100,9 @@ If you want to add a new construct to the library, check out our [design guideli
 - Create or use an existing CDK application in Python
   - `cdk init app --language go`
 - Get the module:
-  - `go get github.com/cdklabs/generative-ai-cdk-constructs-go/generative-ai-cdk-constructs`
+  - `go get github.com/cdklabs/generative-ai-cdk-constructs-go/generativeaicdkconstructs`
 - Import the library:
-  - `import "github.com/cdklabs/generative-ai-cdk-constructs-go/generative-ai-cdk-constructs"`
+  - `import "github.com/cdklabs/generative-ai-cdk-constructs-go/generativeaicdkconstructs"`
 
 
 _NOTE: The [Go distribution repository](https://github.com/cdklabs/generative-ai-cdk-constructs-go), distributes the JSII tar gzipped versioned source from the [source repository](https://github.awslabs/generative-ai-cdk-constructs)_
@@ -154,6 +154,7 @@ The following constructs are available in the library:
 | [Amazon OpenSearch Serverless Vector Collection](./src/cdk-lib/opensearchserverless/README.md) | CDK L2 Constructs to create a vector collection. | Amazon OpenSearch Vector Index |
 | [Amazon OpenSearch Vector Index](./src/cdk-lib/opensearch-vectorindex/README.md) | CDK L1 Custom Resource to create a vector index. | Amazon OpenSearch Serverless, AWS Lambda |
 | [Amazon Aurora DSQL](./src/cdk-lib/aurora-dsql/README.md) | CDK L2 Constructs for Amazon Aurora DSQL. | Amazon Aurora DSQL |
+| [Amazon S3 Vectors](./src/cdk-lib/s3vectors/README.md) | CDK L2 Constructs for Amazon S3 vectors. | Amazon S3 Vectors |
 
 ## Sample Use Cases
 
